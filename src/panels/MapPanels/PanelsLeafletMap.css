@@ -1,0 +1,31 @@
+/*MAPS*/
+.zoom-top-bar{
+    position: absolute;
+    top:40%;
+    right: 8px;
+    transform: translate(0, -50%);
+    z-index: 400;
+}
+.zoom-top-bar-btn{
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+.zoom-top-bar-up{
+    margin-bottom: 8px;
+}
+.btn-my-location, .my-location-2{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    right:8px;
+    bottom: 30%;
+    position: absolute;
+    z-index: 400;
+}
+.zoom-top-bar-btn img, .to-image-btn img{
+    width: inherit;
+    height: inherit;
+}

@@ -1,0 +1,9 @@
+.AppRoot{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+.Content{
+    flex: 1 0 auto;
+    overflow: auto;
+}

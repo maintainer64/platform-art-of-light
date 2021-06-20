@@ -1,0 +1,19 @@
+.leaflet-popup .leaflet-popup-tip-container{
+    display: none !important;
+}
+.leaflet-popup .leaflet-popup-content-wrapper{
+    /* White / White */
+
+    background: #FFFFFF !important;
+    /* Elevation 16 dp */
+
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.12), 0 0 96px rgba(0, 0, 0, 0.16) !important;
+    border-radius: 8px !important;
+}
+.leaflet-popup .leaflet-popup-close-button{
+    display: none !important;
+}
+.leaflet-popup .leaflet-popup-content{
+    width: auto !important;
+    margin: 12px 24px 24px 24px;
+}

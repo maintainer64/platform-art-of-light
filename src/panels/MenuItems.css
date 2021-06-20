@@ -1,0 +1,89 @@
+.left-menu-sidebar{
+    position: relative;
+    float: left;
+    height: 100vh;
+}
+.pro-menu{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.pro-menu .Footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.CompanyNameSidebarMenu{
+    cursor: pointer;
+    margin: 0 auto;
+    text-align: center;
+}
+.CompanyNameSidebarMenu .Icon{
+    display: inline-block !important;
+}
+/*mocks_wrapper*/
+.mocks_wrapper{
+    clear: both;
+    height: calc(100vh - 72px);
+    overflow: hidden;
+}
+.mocks_wrapper > .left, .mocks_wrapper > .right{
+    float: left;
+    height: 100%;
+    display: block;
+    position: relative;
+}
+.mocks_wrapper > .left{
+    width: 316px;
+}
+.mocks_wrapper > .right{
+    border-left: 1px solid rgb(232 232 232);
+    width: calc(100% - 318px);
+}
+.mocks_wrapper .scrolling-cell, .mocks_wrapper .scrolling-form{
+    height: calc(100vh - 72px - 70px);
+    overflow: scroll;
+}
+.mocks_wrapper .scrolling-cell, .mocks_wrapper .scrolling-form-no-header{
+    height: calc(100vh - 72px);
+    overflow: scroll;
+}
+.mocks_wrapper > .left .scrolling-cell .Cell > div{
+    padding: 0 24px;
+}
+.mocks_wrapper > .left .Group, .mocks_wrapper > .right .Group{
+    background-color: #fff;
+    padding: 8px 0 20px 0;
+}
+.mocks_wrapper > .left .Group > .Group__inner, .mocks_wrapper > .right .Group > .Group__inner{
+    padding: 0 !important;
+}
+.mocks_wrapper > .right{
+    float: left;
+}
+.mocks_wrapper > .right .PanelHeader{
+    position: relative;
+    top: -5px;
+}
+.mocks_wrapper > .right .scrolling-form > form{
+    padding: 0 16px;
+}
+.mocks_wrapper > .right .scrolling-form .FormStatus{
+    margin: 12px !important;
+}
+.mocks_wrapper .scrolling-form{
+    border-top: 1px solid rgb(232 232 232);
+}
+.mocks_wrapper .scrolling-form .FormLayoutGroup .FormItem:last-child h4{
+    opacity: 0;
+}
+/*All settings maps containers*/
+.PopoutWrapper{
+    z-index: 9999999999999 !important;
+}
+/*Scrolling wrapper*/
+.mocks_wrapper .left .SearchCustom{
+
+}

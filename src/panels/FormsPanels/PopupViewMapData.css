@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+.PopupViewMapData{
+    min-width: 370px;
+    font-family: 'IBM Plex Sans', sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+.PopupViewMapData .header .Cell h1{
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0 !important;
+}
+.PopupViewMapData .header .Cell .vkuiSimpleCell__main{
+    padding: 0 !important;
+}
+.PopupViewMapData .header{
+    height: 26px !important;
+    box-sizing: border-box;
+}
+.PopupViewMapData .meta .vkuiSimpleCell__children{
+    width: 100%;
+}
+.PopupViewMapData .meta .info-marker{
+    padding-top: 8px;
+    width: 338px;
+}
+.PopupViewMapData .meta .info-marker, .PopupViewMapData .meta .info-marker .info-marker-copy{
+    line-height: 18px;
+}
+.PopupViewMapData .meta .info-marker .info-marker-copy{
+    margin-left: 12px;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+.PopupViewMapData .meta .info-marker::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.PopupViewMapData .meta .info-marker .info-marker-copy:hover{
+    opacity: .9;
+}
+.PopupViewMapData .meta .info-marker .info-marker-copy img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.PopupViewMapData .meta .info-marker{
+    font-size: 14px;
+    color: #6F7985;
+    font-weight: 300 !important;
+}
+.PopupViewMapData .settings{
+    position: relative;
+    width: inherit;
+}
+.PopupViewMapData .auto-light{
+    clear: both;
+    height: 22px;
+    padding-top: 12px;
+}
+.PopupViewMapData .auto-light:first-child{
+    padding-top: 0;
+}
+.PopupViewMapData .auto-light > div{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+}
+.PopupViewMapData .level_light_control{
+    width: 338px;
+    margin-top: 14px;
+}
+.PopupViewMapData .level_light_control.indicator{
+    margin-top: 0;
+}
+.PopupViewMapData .level_light_control .FormItem{
+    padding-left: 0;
+    padding-right: 0;
+}
+.PopupViewMapData .level_light_control .FormItem h4{
+    font: inherit !important;
+    color: inherit;
+    padding-bottom: 2px;
+}
+.PopupViewMapData .level_light_control .text__bottom{
+    color: #6F7985;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 8px;
+}
+.PopupViewMapData .indicator .Slider__thumb{
+    display: none;
+}
+.PopupViewMapData .indicator .vkuiSlider--disabled{
+    opacity: 1 !important;
+}
+.PopupViewMapData .temperature{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #6F7985;
+    margin-left: 12px;
+}
