@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/platform-art-of-light/static/css/main.c20df7ab.chunk.css",
-    "main.js": "/platform-art-of-light/static/js/main.89d17f14.chunk.js",
-    "main.js.map": "/platform-art-of-light/static/js/main.89d17f14.chunk.js.map",
+    "main.js": "/platform-art-of-light/static/js/main.19f60011.chunk.js",
+    "main.js.map": "/platform-art-of-light/static/js/main.19f60011.chunk.js.map",
     "runtime-main.js": "/platform-art-of-light/static/js/runtime-main.622fcd82.js",
     "runtime-main.js.map": "/platform-art-of-light/static/js/runtime-main.622fcd82.js.map",
     "static/css/2.900373e7.chunk.css": "/platform-art-of-light/static/css/2.900373e7.chunk.css",
-    "static/js/2.9b565670.chunk.js": "/platform-art-of-light/static/js/2.9b565670.chunk.js",
-    "static/js/2.9b565670.chunk.js.map": "/platform-art-of-light/static/js/2.9b565670.chunk.js.map",
+    "static/js/2.add5e1bd.chunk.js": "/platform-art-of-light/static/js/2.add5e1bd.chunk.js",
+    "static/js/2.add5e1bd.chunk.js.map": "/platform-art-of-light/static/js/2.add5e1bd.chunk.js.map",
     "index.html": "/platform-art-of-light/index.html",
     "static/css/2.900373e7.chunk.css.map": "/platform-art-of-light/static/css/2.900373e7.chunk.css.map",
     "static/css/main.c20df7ab.chunk.css.map": "/platform-art-of-light/static/css/main.c20df7ab.chunk.css.map",
-    "static/js/2.9b565670.chunk.js.LICENSE.txt": "/platform-art-of-light/static/js/2.9b565670.chunk.js.LICENSE.txt"
+    "static/js/2.add5e1bd.chunk.js.LICENSE.txt": "/platform-art-of-light/static/js/2.add5e1bd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.622fcd82.js",
     "static/css/2.900373e7.chunk.css",
-    "static/js/2.9b565670.chunk.js",
+    "static/js/2.add5e1bd.chunk.js",
     "static/css/main.c20df7ab.chunk.css",
-    "static/js/main.89d17f14.chunk.js"
+    "static/js/main.19f60011.chunk.js"
   ]
 }
